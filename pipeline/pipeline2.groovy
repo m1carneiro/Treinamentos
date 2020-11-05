@@ -40,7 +40,7 @@ if (params.Continuar != 'Sim') {
                 currentBuild.result = 'FAILURE'
             }
 			archiveArtifacts '*.txt'
-			office365ConnectorSend message: 'Execucao Concluida.', status: 'End', webhookUrl: 'https://outlook.office.com/webhook/f1d4a645-1793-4be1-88e9-ccd82e5c37c8@93f33571-550f-43cf-b09f-cd331338d086/JenkinsCI/f4ab83d5fb7842b59f6b59fd8c0d1c0b/f1d4a645-1793-4be1-88e9-ccd82e5c37c8'
+			office365ConnectorSend message: 'Execucao Concluida.', status: 'End', webhookUrl: 'https://outlook.office.com/webhook/82fa2788-c6f4-4507-a657-36f91eccfd87@93f33571-550f-43cf-b09f-cd331338d086/JenkinsCI/4f3bbf41e81a4f36887a1a4d7fbfb2c6/82fa2788-c6f4-4507-a657-36f91eccfd87'
         }
 	}
 }
